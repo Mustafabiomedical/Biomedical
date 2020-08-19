@@ -26,7 +26,7 @@ int main()
 			return 1;
 		}
 		
-		std::cout << setw(6) << " |";
+		cout << setw(6) << " |";
 		for (size_t i{ 1 }; i <= tableMultiplication; ++i)
 		{
 			cout << " " << setw(3) << i << " |";
